@@ -39,4 +39,5 @@ sns.heatmap(confusion_matrix(y_test, y_pred_lr), annot=True, fmt='d', cmap='Blue
 plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.title('Confusion Matrix - Logistic Regression')
+
 plt.show()
